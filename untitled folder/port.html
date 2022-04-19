@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./port.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="home-container">
+        <div class="mobile-nav-container">
+            <div class="bars-container" onclick="openMobileLinks()">
+                <div class="bar" id="bar-one"></div>
+                <div class="bar" id="bar-two"></div>
+            </div>
+            <div class="links-container" id="mobile-links">
+                <p class="link">HOME</p>
+                <p class="link">ABOUT ME</p>
+                <p class="link">PROJECTS</p>
+                <p class="link">CONTACT</p>
+            </div>
+        </div>
+        <div class="nav-container">
+            <div class="links-container">
+                <p class="link">HOME</p>
+                <p class="link">ABOUT ME</p>
+                <p class="link">PROJECTS</p>
+                <p class="link">CONTACT</p>
+            </div>
+            <div class="social-links">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-solid fa-paperclip"></i>
+            </div>
+        </div>
+        <div class="home-text-container">
+            <h1>Hello, I'm Anthony</h1>
+            <h2>A Front-End Developer</h2>
+            <a href="https://github.com/AnthonyG98" class="github-link">
+                Visit My Github
+            </a>
+        </div>
+    </div>    
+    <div class="about-container">
+        <h1 class="about-background">About Me</h1>
+        <div class="about-section-container">
+            <div class="about-section">
+                <i class="fa-solid fa-paintbrush"></i>
+                <p>CREATIVE.</p>
+            </div>
+            <div class="about-section">
+                <i class="fa-solid fa-laptop-code"></i>           
+                <p>EFFICIENT.</p>
+            </div>
+            <div class="about-section">
+                <i class="fa-solid fa-mug-hot"></i>
+                <p>CAFFEINE-INDUCED.</p>
+            </div>
+        </div>
+        <div class="about-text-container">
+            <h2 class="about-head">Hi,</h2>
+            <p class="about-text">I'm a Front End Developer dedicated
+                to writing the most optimal of code. I have been coding since the summer of 2020
+                and my day isn't complete until I learn something new.
+            </p>
+            <p>
+                My name is Anthony Gonzalez and I'm bringing the spice into this space.
+            </p>
+        </div>
+        <div class="skills-container">
+            <h2 class="about-head">Skills:</h2>
+            <p>React, Node, MySQL, Express, JavaScript</p>
+        </div>
+    </div>
+    <div class="portfolio-container">
+        <div class="portfolio-head-container">
+            <p class="about-head">Portfolio</p>
+            <p class="about-sub">Take a look at what I can do.</p>
+        </div>
+        <div class="project-container">
+            <div class="project" id="project-one">
+                <div class="project-btn-container">
+                    <button class="project-btn">View Live</button>
+                    <button class="project-btn">View Source</button>
+                </div>
+            </div>
+            <div class="project" id="project-two">
+                <div class="project-btn-container">
+                    <button class="project-btn">View Live</button>
+                    <button class="project-btn">View Source</button>
+                </div>
+            </div>
+            <div class="project" id="project-three">
+                <div class="project-btn-container">
+                    <button class="project-btn">View Live</button>
+                    <button class="project-btn">View Source</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-container">
+        <div class="contact-head-container">
+            <p class="contact-head">Contact Me</p>
+            <p class="intouch" id="touch">Get in touch.</p>
+        </div>
+        <div class="form-container">
+            <input type="text"/>
+            <label>Name</label>
+            <input type="text"/>
+            <label>Subject</label>
+            <textarea placeholder="What's up?"></textarea>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
